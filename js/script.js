@@ -23,10 +23,9 @@ const images = [
 ]
 for (let i = 0; i < images.length; i++) {
 
-    const div = document.createElement("div")
-    document.getElementById("carousel").appendChild(div)
+    
 
-        document.getElementById("corousel").innerHTML += images[i].image ;
+    document.getElementById("img").innerHTML = images[i].image ;
 
 }
 
