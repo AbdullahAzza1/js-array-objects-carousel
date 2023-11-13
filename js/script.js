@@ -23,9 +23,11 @@ const images = [
 ]
 for (let i = 0; i < images.length; i++) {
 
-
-
-    document.getElementById("img").innerHTML = <img src="images[i].image" alt=""></img> ;
+    document.getElementById("carosello").innerHTML += '<div id="carousel">"
+    <img id="img" src="${images[i].image}" alt="">
+    <p class="desk1">${images[i].title}</p>
+    <p class="desk2">${images[i].text}</p>
+    "</div>';
 
 }
 
