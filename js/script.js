@@ -23,9 +23,9 @@ const images = [
 ]
 for (let i = 0; i < images.length; i++) {
 
-    
 
-    document.getElementById("img").innerHTML = images[i].image ;
+
+    document.getElementById("img").innerHTML = <img src="images[i].image" alt=""></img> ;
 
 }
 
